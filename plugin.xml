@@ -108,6 +108,7 @@
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+            <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
         </config-file>
 
         <preference name="ANDROID_SUPPORT_V7_VERSION" default="27.+"/>
